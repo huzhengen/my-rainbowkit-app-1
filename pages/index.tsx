@@ -11,11 +11,6 @@ import UploadNFT from '../components/uploadNFT';
 import NftList from '../components/nftList';
 
 const Home: NextPage = () => {
-  const [transferToAddress, setTransferToAddress] = useState('')
-  const [transferToAmount, setTransferToAmount] = useState(0)
-
-  const { address } = useAccount()
-  
 
   return (
     <div className={styles.container}>
